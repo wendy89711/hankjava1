@@ -21,7 +21,7 @@ public class PockerGame {
 		Random random = new Random();
 		int number = random.nextInt(13)+1;
 		int flower = random.nextInt(4);
-//		System.out.print(number);
+		System.out.print(number);
 		char c = 0;
 		switch(flower){
 		case 0:
