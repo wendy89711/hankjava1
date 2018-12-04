@@ -2,10 +2,19 @@ package com.tom;
 
 import java.util.Random;
 
-public class PockerGame {
+public class PokerGame {
 	public static void main(String[] args) {
-		int[]flowers = {0x2663,0x2666,0x2665,0x2660};
-		/*
+		int n = 4;
+		int[] nn = new int[52];
+		
+		Card c = new Card(2);
+		Card[] cards = new Card[52];
+		
+		Poker poker = new Poker();
+		poker.print();
+		
+/*		int[]flowers = {0x2663,0x2666,0x2665,0x2660};
+	
 		int[] nums = new int[5]; //°}¦CArray
 		nums[4] = 55;
 		nums[1] = 44;
@@ -14,11 +23,12 @@ public class PockerGame {
 		for (int i=0;i<nums.length;i++){
 			System.out.println(nums[i]);
 		}
-		*/
+		
 		char f = 0x2660;
 		System.out.println(f);
+		*/
 		
-		Random random = new Random();
+/*		Random random = new Random();
 		int number = random.nextInt(13)+1;
 		int flower = random.nextInt(4);
 		System.out.print(number);
@@ -37,8 +47,8 @@ public class PockerGame {
 			c = 'S';
 			break;
 		}
-//		System.out.print(c);
-		
+		System.out.print(c);
+		*/
         
 
 	}
