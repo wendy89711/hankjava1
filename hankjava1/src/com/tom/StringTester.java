@@ -10,21 +10,22 @@ public class StringTester {
 		System.out.println(s.substring(0,11));
 		
 		for(int i = s.length()-1;i>=0; i--){
-			System.out.print(s.charAt(i));;
+			System.out.print(s.charAt(i));
 		}
 		System.out.println();
 		System.out.println(s1.indexOf('o'));
 		System.out.println(s1.lastIndexOf('o'));
 		
 		String s2 = new String("Jack Tom Eric");
-		s2 = s2.replace("Tom", "boss");
-		System.out.println(s2);
+//		                        1234567890123
+//		s2 = s2.replace("Tom", "boss");
+//		System.out.println(s2);
 		
 		String name = "Tom";
 		int index = s2.indexOf(name);
 		System.out.println(index);
-		System.out.println(s2.substring(0, index)+"boss"+
-		s2.substring(index+name.length()));
+		System.out.println(s2.substring(0, index)+"boss"+s2.substring(index+name.length()));
+		
 		int nn = Integer.parseInt("12");
 		float f = Float.parseFloat("45.3");
 		nn++;
