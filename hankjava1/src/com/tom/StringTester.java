@@ -29,7 +29,8 @@ public class StringTester {
 		int nn = Integer.parseInt("12");
 		float f = Float.parseFloat("45.3");
 		nn++;
-		System.out.print(nn);
+		System.out.println(nn);
+		System.out.println(f);
 	}
 
 }

@@ -18,8 +18,12 @@ public class StringTester2 {
 		System.out.println(s2.indexOf('e'));
 		System.out.println(s1.lastIndexOf('e'));
 		String s3 = "Wendy Cindy Judy";
-		s3 = s3.replace("Wendy", "Good");
-		System.out.println(s3);
+//		s3 = s3.replace("Wendy", "Good");
+//		System.out.println(s3);
+		String name = "Wendy";
+		int index = s3.indexOf(name);
+		System.out.println(index);
+		System.out.println("Good"+s3.substring(index+name.length()));
 		
 	}
 }
