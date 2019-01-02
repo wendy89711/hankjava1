@@ -32,10 +32,9 @@ public class Practice {
 		String s3 = new String("Jack Tom Eric");
 //		                        0123456789012
 		String name = "Tom";
-		int index = s3.indexOf(name);
-		System.out.println(index);
-		System.out.println(s3.substring(0, index)+"boss"+s3.substring(index+name.length()));
-		
+		int a = s3.indexOf(name);
+		System.out.println(a);
+		System.out.println(s3.substring(0, a)+"boss"+s3.substring(a+name.length()));
 	}
 
 }

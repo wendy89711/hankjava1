@@ -17,7 +17,7 @@ public class StringTester {
 		System.out.println(s1.lastIndexOf('o'));
 		
 		String s2 = new String("Jack Tom Eric");
-//		                        1234567890123
+//		                        0123456789012
 //		s2 = s2.replace("Tom", "boss");
 //		System.out.println(s2);
 		
