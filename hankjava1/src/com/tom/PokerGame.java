@@ -50,7 +50,6 @@ public class PokerGame {
 		}
 		System.out.print(c);
 		*/
-        
 
 	}
 
