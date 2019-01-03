@@ -3,8 +3,6 @@ package com.tom;
 public class Card {
 	char[] suits = {'\u2663','\u2666','\u2665','\u2660'};
 	int value;
-	int symbol;
-	int suit;
 	public Card(int value){
 		this.value = value;
 	}
