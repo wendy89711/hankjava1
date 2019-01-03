@@ -11,19 +11,18 @@ public class StringTester2 {
 		System.out.println(s1==s2);
 		System.out.println(s.substring(17));
 		System.out.println(s1.substring(0, 12));
-		for(int i = s.length()-1; i>=0;i--) {
-			System.out.print(s.charAt(i));
+		for(int i=s2.length()-1;i>=0;i--) {
+			System.out.print(s2.charAt(i));
 		}
 		System.out.println();
 		System.out.println(s2.indexOf('e'));
 		System.out.println(s1.lastIndexOf('e'));
-		String s3 = "Wendy Cindy Judy";
+		String s3 = "Cindy Wendy Judy";
 //		s3 = s3.replace("Wendy", "Good");
 //		System.out.println(s3);
 		String name = "Wendy";
 		int index = s3.indexOf(name);
 		System.out.println(index);
-		System.out.println("Good"+s3.substring(index+name.length()));
-		
+		System.out.println(s3.substring(0, index)+"Good"+s3.substring(index+name.length()));
 	}
 }
