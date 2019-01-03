@@ -6,7 +6,7 @@ public class PokerGame {
 	public static void main(String[] args) {
 		int[] n = new int[10];
 		Card[] c = new Card[52];
-		System.out.println(n[0]);
+		System.out.println(n[4]);
 		c[51] = new Card(1);
 		System.out.println(c[51].get());
 		
@@ -14,7 +14,7 @@ public class PokerGame {
 		poker.shuffle();
 		poker.print();
 		
-/*		int[]flowers = {0x2663,0x2666,0x2665,0x2660};
+	int[]flowers = {0x2663,0x2666,0x2665,0x2660};
 	
 		int[] nums = new int[5]; //°}¦CArray
 		nums[4] = 55;
@@ -27,13 +27,13 @@ public class PokerGame {
 		
 		char f = 0x2660;
 		System.out.println(f);
-		*/
 		
-/*		Random random = new Random();
+		
+		Random random = new Random();
 		int number = random.nextInt(13)+1;
 		int flower = random.nextInt(4);
 		System.out.print(number);
-		char c = 0;
+/*		char c = 0;
 		switch(flower){
 		case 0:
 			c = 'C';
