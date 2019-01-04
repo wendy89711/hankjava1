@@ -31,8 +31,8 @@ public class Poker {
 
 	public void print() {
 		for (int i = 0; i < 52; i++) {
-
-//			System.out.print(cards[i].get() + " ");
+			Card c = (Card)bag.get(i);
+			System.out.print(c.get() + " ");
 			if (i % 13 == 12)
 				System.out.println();
 		}

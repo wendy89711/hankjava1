@@ -25,9 +25,8 @@ public class PokerGame {
 			System.out.println(nums[i]);
 		}
 		
-		char f = 0x2660;
-		System.out.println(f);
-		
+//		char f = 0x2660;
+//		System.out.println(f);		
 		
 		Random random = new Random();
 		int number = random.nextInt(13)+1;

@@ -1,13 +1,17 @@
 package com.tom;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Poker2 {
+	ArrayList bag = new ArrayList();
 	Card[] cards = new Card[52];	
 	public Poker2() {
 		for(int i = 0; i<52; i++) {
-			cards[i] = new Card(i);
+			Card c = new Card(i);
+			bag.add(c);
 		}
+		System.out.println(bag.size());
 	}
 	public void shuffle() {
 		for(int i = 0; i<52; i++) {
