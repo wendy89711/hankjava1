@@ -10,9 +10,18 @@ public class Poker2 {
 		}
 	}
 	public void shuffle() {
-		
+		for(int i = 0; i<52; i++) {
+			int r = new Random().nextInt(52);
+			Card tmp = cards [i];
+			cards[i] = cards[r];
+			cards[r] = tmp;
+		}
 	}
 	public void print() {
-		
+		for(int i = 0; i<52;i++) {
+			System.out.print(cards[i].get()+" ");
+			if(i%13==12)
+			System.out.println();
+		}
 	}
 }

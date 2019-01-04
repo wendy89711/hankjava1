@@ -7,7 +7,7 @@ public class Card {
 		this.value = value;
 	}
 	public String get() {
-		String s = value%13+1+" "+suits[value/13];
+		String s = value%13+1+""+suits[value/13];
 		return s;
 	}
 }
