@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Poker {
-	// int[] cards = new int [52];
-	// Card[] cards = new Card[52];
+	Card[] cards = new Card[52];
 	ArrayList bag = new ArrayList();
 
 	public Poker() {
@@ -23,9 +22,9 @@ public class Poker {
 			int r = new Random().nextInt(52);
 			// a = cards[i];
 			// b = cards[i];
-//			Card tmp = cards[i];
-//			cards[i] = cards[r];
-//			cards[r] = tmp;
+			Card tmp = cards[i];
+			cards[i] = cards[r];
+			cards[r] = tmp;
 		}
 	}
 

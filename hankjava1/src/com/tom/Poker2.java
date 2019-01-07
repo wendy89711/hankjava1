@@ -8,10 +8,8 @@ public class Poker2 {
 	Card[] cards = new Card[52];	
 	public Poker2() {
 		for(int i = 0; i<52; i++) {
-			Card c = new Card(i);
-			bag.add(c);
+			cards[i] = new Card(i);
 		}
-		System.out.println(bag.size());
 	}
 	public void shuffle() {
 		for(int i = 0; i<52; i++) {
